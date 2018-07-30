@@ -1,7 +1,7 @@
 #!bin/bash
 
 #rbenv
-sudo apt install -y libssl-dev libreadline-dev zlib1g-dev
+sudo apt install -y curl build-essential libssl-dev libreadline-dev zlib1g-dev
 git clone https://github.com/rbenv/rbenv.git ~/.rbenv
 cd ~/.rbenv && src/configure && make -C src
 
