@@ -12,9 +12,6 @@ cd ~/.rbenv && src/configure && make -C src
 ##bash
 #echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.bash_profile
 #echo 'eval "$(rbenv init -)"' >> ~/.bash_profile
-##Zsh
-#echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.zshrc
-#echo 'eval "$(rbenv init -)"' >> ~/.zshrc
 
 ~/.rbenv/bin/rbenv init
 curl -fsSL https://github.com/rbenv/rbenv-installer/raw/master/bin/rbenv-doctor | bash
